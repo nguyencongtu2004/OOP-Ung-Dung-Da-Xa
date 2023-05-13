@@ -48,3 +48,13 @@ CChiTiet* CMay::TimKiem(long ms)
 	}
 	return NULL;
 }
+
+int CMay::DemChiTietDon()
+{
+	int dem = 0;
+	for (int i = 0; i < n; i++)
+	{
+		dem = dem + ds[i]->SoChiTietDon();
+	}
+	return dem;
+}

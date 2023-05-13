@@ -27,3 +27,8 @@ CChiTiet* CChiTietDon::TimKiem(long ms)
 	else
 		return NULL;
 }
+
+int CChiTietDon::SoChiTietDon()
+{
+	return 1;
+}

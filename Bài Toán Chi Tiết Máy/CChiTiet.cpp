@@ -23,4 +23,9 @@ CChiTiet* CChiTiet::TimKiem(long ms)
 	//return NULL có được không?
 	return NULL;
 }
+
+int CChiTiet::SoChiTietDon()
+{
+	return 0;
+}
 */

@@ -5,9 +5,10 @@ int main()
 {
     CMay a;
     a.Nhap();
+    cout << endl;
     a.Xuat();
-    float tien = a.TinhTien();
-    cout << "\nTong tien cua may: " << tien;
+    cout << "\nTong tien cua may: " << a.TinhTien();
+    cout << "\nTong so chi tiet don cua may: " << a.DemChiTietDon();
 
     return 0;
 }

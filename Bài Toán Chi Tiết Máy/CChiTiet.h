@@ -14,5 +14,5 @@ public:
 	virtual void Xuat() = 0;
 	virtual float TinhTien() = 0;
 	virtual CChiTiet* TimKiem(long) = 0;
+	virtual int SoChiTietDon() = 0;
 };
-

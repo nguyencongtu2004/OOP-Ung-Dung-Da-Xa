@@ -13,6 +13,5 @@ public:
 	void Xuat();
 	float TinhTien();
 	CChiTiet* TimKiem(long);
-
+	int SoChiTietDon();
 };
-
