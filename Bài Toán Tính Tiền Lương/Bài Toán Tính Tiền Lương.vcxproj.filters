@@ -18,5 +18,43 @@
     <ClCompile Include="Bài Toán Tính Tiền Lương.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CCongTy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CNhanVien.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSanXuat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CVanPhong.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CQuanLy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CNgay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CCongTy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CNhanVien.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSanXuat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CVanPhong.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CQuanLy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CNgay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
