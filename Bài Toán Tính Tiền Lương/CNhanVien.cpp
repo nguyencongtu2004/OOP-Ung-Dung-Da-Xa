@@ -18,4 +18,3 @@ void CNhanVien::Xuat()
 	cout << "Ngay sinh: " << NgaySinh << endl;
 	cout << "Luong co ban: " << setprecision(12) << LuongCoBan << endl;
 }
-
