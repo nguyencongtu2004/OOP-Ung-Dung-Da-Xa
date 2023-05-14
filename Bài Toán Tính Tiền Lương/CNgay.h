@@ -12,9 +12,4 @@ private:
 public:
 	friend istream& operator >> (istream&, CNgay&);
 	friend ostream& operator << (ostream&, CNgay&);
-
-	CNgay();
-	CNgay(int, int, int);
-	CNgay(const CNgay&);
-	~CNgay();
 };

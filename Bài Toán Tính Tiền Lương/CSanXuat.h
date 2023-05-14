@@ -10,6 +10,6 @@ public:
 	void Nhap();
 	void TinhLuong();
 	void Xuat();
-	void LayLuong();
+	float LayLuong();
 	CNhanVien* TimKiem(string);
 };

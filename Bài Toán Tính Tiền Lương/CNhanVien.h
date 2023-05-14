@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <string>
+#include <iomanip>
 #include "CNgay.h"
 using namespace std;
 
@@ -13,9 +14,9 @@ protected:
 	float LuongCoBan;
 
 public:
-	void Nhap();
-	void TinhLuong();
-	void Xuat();
-	void LayLuong();
-	CNhanVien* TimKiem(string);
+	virtual void Nhap();
+	virtual void TinhLuong() = 0;
+	virtual void Xuat();
+	virtual float LayLuong() = 0;
+	virtual CNhanVien* TimKiem(string) = 0;
 };

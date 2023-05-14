@@ -14,34 +14,7 @@ istream& operator >> (istream& is, CNgay& d)
 
 ostream& operator << (ostream& os, CNgay& d)
 {
-	os << "Ngay " << d.Ngay << " thang " << d.Thang << " nam " << d.Nam;
+	os <<  d.Ngay << "/" << d.Thang << "/" << d.Nam;
 
 	return os;
-}
-
-CNgay::CNgay()
-{
-	Ngay = 1;
-	Thang = 1;
-	Nam = 1;
-
-}
-
-CNgay::CNgay(int ngay, int thang, int nam)
-{
-	Ngay = ngay;
-	Thang = thang;
-	Nam = nam;
-}
-
-CNgay::CNgay(const CNgay& d)
-{
-	Ngay = d.Ngay;
-	Thang = d.Thang;
-	Nam = d.Nam;
-}
-
-CNgay::~CNgay()
-{
-	return;
 }

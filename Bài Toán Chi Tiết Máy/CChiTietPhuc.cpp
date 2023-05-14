@@ -19,7 +19,7 @@ void CChiTietPhuc::Nhap()
 		} 
 		while (loai != 0 && loai != 1);
 		ds[i]->Nhap();//thực hiện theo cơ chế đa xạ
-		//không gọi phương thức Nhap() của lớp CCHiTiet mà gọi phương thức
+		//không gọi phương thức Nhap() của lớp CChiTiet mà gọi phương thức
 		//Nhap() của lớp mà con trỏ ds[i] đang giữ  địa chỉ (CChiTietDon hoặc CChiTietPhuc)
 	}
 }

@@ -11,6 +11,6 @@ public:
 	void Nhap();
 	void TinhLuong();
 	void Xuat();
-	void TongLuong();
+	float TongLuong();
 	CNhanVien* TimKiem(string);
 };
