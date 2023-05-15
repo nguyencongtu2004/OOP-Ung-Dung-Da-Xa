@@ -9,6 +9,5 @@ int main()
 	float tongluong = HiepPhat.TongLuong();
 	cout << "\nTong luong cua nhan vien: " << tongluong;
 
-
 	return 0;
 }
